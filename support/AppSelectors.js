@@ -1,0 +1,21 @@
+export default {
+NIPContractorForm: '#kontrahentNip',
+NIPContractorAutoForm:"input[name='kontrahentAkronim']",
+ContractorNameForm:"input[name='kontrahentName']",
+CommodityIndexForm:"input[name='indeksTwr']",
+DetailsForm: "input[name='szczegoly']",
+ComplaintNumberForm:"input[name='nrReklamacji']",
+DescriptionForm:"input[name='opis']",
+SeriesNumberForm:"[colspan='2'] > #numerSerwis",
+ShopEmailForm:"input[name='mail']",
+AddFileForm:"input[name='FileUpload']",
+ShopCode:"select[name='kodSkl1']",
+TypeOfNotification: "select[name='rodzajZgloszenia']",
+ClientSelect: "select[title='Wybierz płatnika']",
+PriceForm:"input[name='cenaZakupu']",
+TypeOfOrderClient:":nth-child(4) > #rodzajZamowieniaKlient",
+PriceClientForm:"input[name='kwotaKlient']",
+TypeOfOrderShop:"select[name='rodzajZamowieniaSkl']",
+PriceShopForm:"input[name='kwotaSklep']",
+ServiceEmail:":nth-child(4) > #emailSerwis"
+}
