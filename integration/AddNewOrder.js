@@ -12,12 +12,8 @@ describe('Add new order', () => {
         .click()
         .get(Selectors.selectionListOption)
         .contains('Kategoria testowa HUB')
-        .click();
-        cy.get(Selectors.selectionProductList)
         .click()
         .get(Selectors.productTitle)
-        .contains('Produkt Testowy HUB')
-        .click()
         .get(Selectors.addButton)
         .click()
     })	
