@@ -4,7 +4,21 @@ export default
     Password:"test1"
 },
 NonCommercial:{
-    Username:"ntrz00",
-    Password:"Xsw23edc" 
+    Admin:{
+        Username:"ntrz00",
+        Password:"Xsw23edc" 
+        },
+    Sklep:{
+        Username:" ",
+        Password:" "
+    },
+    HUB:{
+        Username:"admin_hub.lublin",
+        Password:"testpass"
+    },
+    CD:{
+        Username:" ",
+        Password:" "
+    }
 }
 }
