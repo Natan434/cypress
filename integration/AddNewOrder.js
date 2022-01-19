@@ -15,6 +15,11 @@ describe('Add new order', () => {
         .click()
         .get(Selectors.productTitle)
         .get(Selectors.addButton)
+        .click();
+        cy.get(Selectors.cartButton)
         .click()
+        
+        
+
     })	
 })
