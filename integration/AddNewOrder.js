@@ -16,7 +16,7 @@ describe('Add new order', () => {
         cy.get(Selectors.selectionProductList)
         .click()
         .get(Selectors.productTitle)
-        .contains('Produkt Testowy tylko CD')
+        .contains('Produkt Testowy HUB')
         .click()
         .get(Selectors.addButton)
         .click()
