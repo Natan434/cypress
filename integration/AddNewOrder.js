@@ -13,12 +13,17 @@ describe('Add new order', () => {
         .get(Selectors.selectionListOption)
         .contains('Kategoria testowa HUB')
         .click()
-        .get(Selectors.productTitle)
-        .get(Selectors.addButton)
+        cy.get(Selectors.productTitle)
+        cy.get(Selectors.addButton)
         .click();
         cy.get(Selectors.cartButton)
         .click()
-        
+        cy.get(Selectors.choseEvt)
+        .click()
+        cy.get(Selectors.confirmBtn)
+        .click()
+        cy.get(Selectors.commentInput).click().type("Zamówienie testowe")
+        cy.get(Selectors.summaryBtn).click() 
         
 
     })	
