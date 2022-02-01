@@ -8,5 +8,13 @@ cartButton:".top-actions-wrapper > .mat-focus-indicator > .mat-button-wrapper",
 choseEvt:".control-list > :nth-child(1) > .mat-button-wrapper",
 confirmBtn:".mat-dialog-actions > .mat-focus-indicator > .mat-button-wrapper",
 commentInput:"#mat-input-3",
-summaryBtn:"app-summary-view.ng-star-inserted > .mat-dialog-actions > .mat-accent > .mat-button-wrapper"
+summaryBtn:"app-summary-view.ng-star-inserted > .mat-dialog-actions > .mat-accent > .mat-button-wrapper",
+orderSite:":nth-child(2) > .mat-list-item-content > .clear > .mat-icon",
+toRealizationTab:"[href='/order/tab/torealiztion']",
+ordersList:"#mat-expansion-panel-header",
+checkAllBtn:"#mat-checkbox-2 > .mat-checkbox-layout > .mat-checkbox-inner-container",
+fastProccesingAction:".action > .mat-icon",
+deliveryTypeList:".mat-form-field > .mat-form-field-wrapper > .mat-form-field-flex > .mat-form-field-infix",
+outsourceDelivery:"#mat-option-609 > .mat-option-text",
+processingSubmittBtn:".mat-dialog-actions > .mat-focus-indicator > .mat-button-wrapper"
 }

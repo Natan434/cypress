@@ -13,7 +13,7 @@ NonCommercial:{
         Password:" "
     },
     HUB:{
-        Username:"admin_hub.lublin",
+        Username:"admin_akra02",
         Password:"testpass"
     },
     CD:{
