@@ -16,5 +16,11 @@ checkAllBtn:"#mat-checkbox-2 > .mat-checkbox-layout > .mat-checkbox-inner-contai
 fastProccesingAction:".action > .mat-icon",
 deliveryTypeList:".mat-form-field > .mat-form-field-wrapper > .mat-form-field-flex > .mat-form-field-infix",
 outsourceDelivery:"#mat-option-609 > .mat-option-text",
-processingSubmittBtn:".mat-dialog-actions > .mat-focus-indicator > .mat-button-wrapper"
+processingSubmittBtn:".mat-dialog-actions > .mat-focus-indicator > .mat-button-wrapper",
+inDeliveryTab:"[href='/order/tab/indelivery']",
+orderInDelivery:"#mat-expansion-panel-header-7",
+orderInDeliveryCheck:"#mat-checkbox-1 > .mat-checkbox-layout > .mat-checkbox-inner-container",
+pickFlag:".actions-flex > .mat-icon",
+qntyInput:"#mat-input-7",
+pickUpButton:".mat-dialog-actions > .mat-focus-indicator > .mat-button-wrapper"
 }
