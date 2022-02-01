@@ -24,7 +24,11 @@ describe('Add new order', () => {
         .click()
         cy.get(Selectors.commentInput).click().type("Zamówienie testowe")
         cy.get(Selectors.summaryBtn).click() 
-        
+        cy.wait('https://itdev03.me.pl:21015/api/order/create').should((xhr) => {
+            expect(xhr.status, 'successful POST').to.equal(200)
+           expect(xhr.url, 'post url').to.match(/\/posts$/)
+         })
+
 
     })	
 })
