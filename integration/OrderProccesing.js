@@ -1,6 +1,6 @@
 var Selectors = require('../support/NonCommercialSelectors.js');
 var LoginDetails = require('../support/LoginDetails.js');
-var Data = require('../support/NonCommercialTestData.js');
+
 var url = 'https://itdev03.me.pl:21015/'
 
 
