@@ -9,16 +9,16 @@ NonCommercial:{
         Password:"Xsw23edc" 
         },
     Sklep:{
-        Username:" ",
-        Password:" "
+        Username:"admin_S189.Kierownik",
+        Password:"testpass"
     },
     HUB:{
         Username:"admin_akra02",
         Password:"testpass"
     },
     CD:{
-        Username:" ",
-        Password:" "
+        Username:"admin_aszu02",
+        Password:"testpass"
     }
 }
 }

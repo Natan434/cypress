@@ -1,5 +1,5 @@
-var Selectors = require('../support/NonCommercialSelectors.js');
-var LoginDetails = require('../support/LoginDetails.js');
+var Selectors = require('../../../support/NonCommercialSelectors.js');
+var LoginDetails = require('../../../support/LoginDetails.js');
 var url = 'https://itdev03.me.pl:21015/'
 
 
@@ -10,7 +10,7 @@ describe('Add new order', () => {
         cy.intercept('GET', 'https://itdev03.me.pl:21015/api/cart/GetCart').as('cartData')
         cy.intercept('POST', 'https://itdev03.me.pl:21015/api/order/create').as('orderCreate')
         cy.visit(url);
-        cy.login(LoginDetails.NonCommercial.HUB.Username,LoginDetails.NonCommercial.HUB.Password)
+        cy.login(LoginDetails.NonCommercial.CD.Username,LoginDetails.NonCommercial.CD.Password)
         cy.get(Selectors.selectionList)
         .click()
         .get(Selectors.selectionListOption)

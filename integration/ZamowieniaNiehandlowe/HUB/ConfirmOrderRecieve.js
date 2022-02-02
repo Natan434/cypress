@@ -1,5 +1,5 @@
-var Selectors = require('../support/NonCommercialSelectors.js');
-var LoginDetails = require('../support/LoginDetails.js');
+var Selectors = require('../../../support/NonCommercialSelectors.js');
+var LoginDetails = require('../../../support/LoginDetails.js');
 var url = 'https://itdev03.me.pl:21015/'
 
 
