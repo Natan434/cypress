@@ -28,7 +28,7 @@ describe('Add new order', () => {
         cy.get(Selectors.confirmBtn)
         .click()
         cy.get(Selectors.commentInput).click().type("Zamówienie testowe")
-        cy.get(Selectors.summaryBtn).click() 
+        cy.get(Selectors.summaryBtn).click()
         cy.wait('@orderCreate').then((interception)=>{assert.isNotNull(interception.response.body,'Order has been created')})
 
 

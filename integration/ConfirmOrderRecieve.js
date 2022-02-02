@@ -12,7 +12,7 @@ describe('Confirm order Recieve', () => {
         cy.get(Selectors.orderSite).click();
         cy.wait(2000);
         cy.get(Selectors.inDeliveryTab).click();
-        cy.get(Selectors.orderInDelivery).click();
+        cy.get('mat-expansion-panel').find('.mat-expansion-panel-header').click();
         cy.get(Selectors.orderInDeliveryCheck).click();
         cy.get(Selectors.pickFlag).click()
         // cy.get(input).type('1');

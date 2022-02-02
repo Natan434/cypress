@@ -18,9 +18,11 @@ deliveryTypeList:".mat-form-field > .mat-form-field-wrapper > .mat-form-field-fl
 outsourceDelivery:"#mat-option-609 > .mat-option-text",
 processingSubmittBtn:".mat-dialog-actions > .mat-focus-indicator > .mat-button-wrapper",
 inDeliveryTab:"[href='/order/tab/indelivery']",
-orderInDelivery:"#mat-expansion-panel-header-7",
+orderInDelivery:".mat-expansion-panel > #mat-expansion-panel-header",
 orderInDeliveryCheck:"#mat-checkbox-1 > .mat-checkbox-layout > .mat-checkbox-inner-container",
 pickFlag:".actions-flex > .mat-icon",
 qntyInput:"#mat-input-7",
-pickUpButton:".mat-dialog-actions > .mat-focus-indicator > .mat-button-wrapper"
+pickUpButton:".mat-dialog-actions > .mat-focus-indicator > .mat-button-wrapper",
+cartNoteInfo:"p.ng-star-inserted",
+cartList:":nth-child(2) > .mat-list"
 }
