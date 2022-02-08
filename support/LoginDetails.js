@@ -20,5 +20,13 @@ NonCommercial:{
         Username:"admin_aszu02",
         Password:"testpass"
     }
+},
+DKW:{
+    KierownikHUB:{
+        Username:"admin_jkal00",
+        Password:"testpass" 
+    }
+
+
 }
 }
