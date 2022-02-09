@@ -41,3 +41,10 @@ getIframeBody().find(LoginForm).type(username);
 getIframeBody().find(PasswordForm).type(password);
 getIframeBody().find(SubmitButton).click();
 })
+
+Cypress.Commands.add('VirtualUser', role=>{
+  cy.get(".dropdown > .btn").click();
+  cy.get("#bs-select-1").contains(role).click();
+  cy.get("#roleButton").click();
+
+})

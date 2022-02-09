@@ -25,6 +25,10 @@ DKW:{
     KierownikHUB:{
         Username:"admin_jkal00",
         Password:"testpass" 
+    },
+    SuperAdmin:{
+        Username:"ntrz00",
+        Password:"Xsw23edc"
     }
 
 
